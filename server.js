@@ -1,6 +1,5 @@
 
 const OBSWebSocket = require('obs-websocket-js').OBSWebSocket;
-const app = express();
 const port = 3000;
 
 const obs = new OBSWebSocket();
