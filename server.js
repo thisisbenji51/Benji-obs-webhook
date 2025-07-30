@@ -1,4 +1,4 @@
-const express = require('express');
+
 const OBSWebSocket = require('obs-websocket-js').OBSWebSocket;
 const app = express();
 const port = 3000;
@@ -23,7 +23,6 @@ app.listen(port, () => {
   console.log(`Server läuft auf http://localhost:${port}`);
 });
 const express = require('express');
-const OBSWebSocket = require('obs-websocket-js').OBSWebSocket;
 const app = express();
 const port = process.env.PORT || 3000;
 
